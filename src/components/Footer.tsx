@@ -38,7 +38,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4 expressive-font bg-clip-text text-transparent bg-gradient-to-r from-[#ec1e64] to-[#ff6b6b]">Contact</h3>
             <p className="text-muted-foreground mb-4">
-              Have a project in mind? Let's talk.
+              Have a project in mind? Let&apos;s talk.
             </p>
             <Button asChild className="hover-lift bg-primary-gradient text-white">
               <Link href="/contact">Get in Touch</Link>

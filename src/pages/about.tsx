@@ -1,5 +1,4 @@
-import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card } from '@/components/ui/card';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import TeamSection from '@/components/TeamSection';
@@ -15,7 +14,7 @@ export default function About() {
           <div className="text-center mb-12 md:mb-16">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4 md:mb-6 expressive-font bg-clip-text text-transparent bg-gradient-to-r from-[#ec1e64] to-[#ff6b6b]">About exoscrum</h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              We're a team of passionate designers, developers, and strategists creating digital experiences that matter.
+              We are a team of passionate designers, developers, and strategists creating digital experiences that matter.
             </p>
           </div>
           

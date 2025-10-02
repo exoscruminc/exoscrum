@@ -1,5 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import { Card, CardTitle } from '@/components/ui/card';
 import AnimatedSection from '@/components/AnimatedSection';
 
 const testimonials = [
@@ -43,7 +42,7 @@ export default function TestimonialsSection() {
             <AnimatedSection key={index} delay={index * 0.1}>
               <Card className="p-5 md:p-6 hover-lift transition-all duration-300 glass h-full flex flex-col border-[#ec1e64]/20">
               <div className="flex items-start space-x-3 md:space-x-4 flex-grow">
-                <p className="text-muted-foreground mb-3 md:mb-4 italic text-sm md:text-base flex-grow">"{testimonial.content}"</p>
+                <p className="text-muted-foreground mb-3 md:mb-4 italic text-sm md:text-base flex-grow">&quot;{testimonial.content}&quot;</p>
               </div>
               <div className="mt-auto">
                 <CardTitle className="text-base font-bold">{testimonial.name}</CardTitle>

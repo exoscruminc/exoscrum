@@ -6,6 +6,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { useForm, ValidationError } from '@formspree/react';
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 export default function Contact() {
   const [state, handleSubmit] = useForm("xanpjepn"); // Replace with your Formspree form ID (e.g., "xyz123")
@@ -38,7 +39,7 @@ export default function Contact() {
               </p>
               <p className="text-muted-foreground mb-6">Redirecting to home page...</p>
               <Button asChild className="hover-lift bg-primary-gradient text-white mx-auto w-full max-w-xs">
-                <a href="/">Back to Home Now</a>
+                <Link href="/">Back to Home</Link>
               </Button>
             </Card>
           </div>

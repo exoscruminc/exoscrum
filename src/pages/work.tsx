@@ -1,10 +1,10 @@
 import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card } from '@/components/ui/card';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { Image } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Work() {
   const projects = [
@@ -80,7 +80,13 @@ export default function Work() {
                   
                   <div className="p-5 md:p-6 flex-grow flex flex-col">
                     <div className="bg-gradient-to-br from-[#ec1e64]/20 to-purple-400/20 aspect-video flex items-center justify-center rounded-lg mb-4">
-                      <Image className="w-10 h-10 md:w-12 md:h-12 text-[#ec1e64]" />
+                      <Image 
+                        src={project.image} 
+                        alt={`${project.title} project screenshot`} 
+                        width={400} 
+                        height={300} 
+                        className="object-cover rounded-lg"
+                      />
                     </div>
                     
                     <div className="flex-grow flex flex-col">
@@ -113,7 +119,7 @@ export default function Work() {
           <div className="text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6 expressive-font bg-clip-text text-transparent bg-gradient-to-r from-[#ec1e64] to-[#ff6b6b]">Ready to start your project?</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-6 md:mb-8">
-              Let's discuss how we can bring your vision to life with our expertise.
+              Let&apos;s discuss how we can bring your vision to life with our expertise.
             </p>
             <Button size="lg" className="hover-lift bg-primary-gradient text-white px-6 md:px-8 py-5 md:py-6 text-base md:text-lg">
               <Link href="/contact">Get in Touch</Link>

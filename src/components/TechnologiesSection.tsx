@@ -14,7 +14,6 @@ import {
   Ship, 
   Database, 
   Globe, 
-  Server, 
   FileText, 
   Shield, 
   Brain, 
