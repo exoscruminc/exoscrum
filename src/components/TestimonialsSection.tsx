@@ -33,7 +33,7 @@ export default function TestimonialsSection() {
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4 expressive-font bg-clip-text text-transparent bg-gradient-to-r from-[#ec1e64] to-[#ff6b6b]">What Our Clients Say</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Don't just take our word for it. Here's what our clients have to say about working with us.
+              Do not just take our word for it. Here is what our clients have to say about working with us.
             </p>
           </div>
         </AnimatedSection>

@@ -14,7 +14,7 @@ import { Globe, Palette, Smartphone, BarChart3, ShoppingCart, Cloud } from 'luci
 type Service = {
   title: string;
   description: string;
-  icon: any; // Changed to 'any' to accept React components
+  icon: React.ComponentType<React.SVGProps<SVGSVGElement>>; // Better typing for React components
   details: string;
   keyBenefits: string[];
   technologies: string[];

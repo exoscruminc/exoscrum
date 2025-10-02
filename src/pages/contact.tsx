@@ -34,7 +34,7 @@ export default function Contact() {
               <div className="text-5xl mb-4 text-green-50">✓</div>
               <h2 className="text-2xl md:text-3xl font-bold mb-4 expressive-font bg-clip-text text-transparent bg-gradient-to-r from-[#ec1e64] to-[#ff6b6b]">Message Sent Successfully!</h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Thank you for contacting us. We'll get back to you as soon as possible.
+                Thank you for contacting us. We will get back to you as soon as possible.
               </p>
               <p className="text-muted-foreground mb-6">Redirecting to home page...</p>
               <Button asChild className="hover-lift bg-primary-gradient text-white mx-auto w-full max-w-xs">
@@ -58,7 +58,7 @@ export default function Contact() {
           <div className="text-center mb-12 md:mb-16">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4 expressive-font bg-clip-text text-transparent bg-gradient-to-r from-[#ec1e64] to-[#ff6b6b]">Get in Touch</h1>
             <p className="text-lg text-muted-foreground">
-              Have a project in mind? We'd love to hear about it.
+              Have a project in mind? We would love to hear about it.
             </p>
           </div>
           
@@ -74,7 +74,7 @@ export default function Contact() {
                 <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6">
                   {/* Honeypot field - hidden from users but visible to bots */}
                   <div style={{ display: 'none' }}>
-                    <label htmlFor="honeypot">Don't fill this in if you're human:</label>
+                    <label htmlFor="honeypot">Do not fill this in if you are human:</label>
                     <input
                       id="honeypot"
                       type="text"

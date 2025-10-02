@@ -15,7 +15,7 @@ export default function CTASection() {
               Ready to Transform Your Digital Presence?
             </h2>
             <p className="text-lg md:text-xl text-dark mb-8 max-w-2xl mx-auto">
-              Let's discuss how our innovative solutions can help achieve your business goals and drive growth. 
+              Lets discuss how our innovative solutions can help achieve your business goals and drive growth. 
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

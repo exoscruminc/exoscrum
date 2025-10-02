@@ -9,18 +9,14 @@ import {
   Code, 
   Palette, 
   Smartphone, 
-  BarChart3, 
-  Monitor,
-  Globe,
-  SmartphoneIcon,
-  Search
+  BarChart3 
 } from 'lucide-react';
 
 // Define the Service type
 type Service = {
   title: string;
   description: string;
-  icon: any; // Changed to 'any' to accept React components
+  icon: React.ComponentType<React.SVGProps<SVGSVGElement>>; // Better typing for React components
   details: string;
   keyBenefits?: string[]; // Optional property for key benefits
   technologies?: string[]; // Optional property for technologies
@@ -81,7 +77,7 @@ export default function ServicesSection() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {services.map((service, index) => (
             <Dialog key={index}>
-              <AnimatedSection key={index} delay={index * 0.1}>
+              <AnimatedSection delay={index * 0.1}>
                 <motion.div
                   whileHover={{ y: -10 }}
                   transition={{ type: "spring", stiffness: 300, damping: 20 }}
