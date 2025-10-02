@@ -21,17 +21,19 @@ export default function Footer() {
               <li><Link href="/about" className="text-muted-foreground hover:text-[#ec1e64] transition-colors">About</Link></li>
               <li><Link href="/services" className="text-muted-foreground hover:text-[#ec1e64] transition-colors">Services</Link></li>
               <li><Link href="/work" className="text-muted-foreground hover:text-[#ec1e64] transition-colors">Work</Link></li>
-              <li><Link href="/careers" className="text-muted-foreground hover:text-[#ec1e64] transition-colors">Careers</Link></li>
+              <li><Link href="/terms" className="text-muted-foreground hover:text-[#ec1e64] transition-colors">Terms of Use</Link></li>
+              <li><Link href="/privacy" className="text-muted-foreground hover:text-[#ec1e64] transition-colors">Privacy Policy</Link></li> 
             </ul>
           </div>
           
           <div>
             <h3 className="text-lg font-bold mb-4 expressive-font bg-clip-text text-transparent bg-gradient-to-r from-[#ec1e64] to-[#ff6b6b]">Connect</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-muted-foreground hover:text-[#ec1e64] transition-colors">Twitter</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-[#ec1e64] transition-colors">LinkedIn</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-[#ec1e64] transition-colors">Instagram</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-[#ec1e64] transition-colors">Dribbble</a></li>
+              <li><Link href="/careers" className="text-muted-foreground hover:text-[#ec1e64] transition-colors">Careers</Link></li>
+              <li><Link href="#" className='text-muted-foreground hover:text-[#ec1e64] transition-colors'>Twitter</Link></li>
+              <li><Link href="#" className='text-muted-foreground hover:text-[#ec1e64] transition-colors'>LinkedIn</Link></li>
+              <li><Link href="#" className='text-muted-foreground hover:text-[#ec1e64] transition-colors'>GitHub</Link></li>
+              <li><Link href="#" className='text-muted-foreground hover:text-[#ec1e64] transition-colors'>Dribbble</Link></li>
             </ul>
           </div>
           
